@@ -38,3 +38,5 @@ disp('integrales definidas')
 p1_fx = 3*x^2 + 4*x + 1
 p1_i_fx = int(p1_fx, x, 0, 3)
 
+p13_fx = sin(2*x)
+p13_i_fx = double(   int(p13_fx, x, 0, 1.5797)  )
